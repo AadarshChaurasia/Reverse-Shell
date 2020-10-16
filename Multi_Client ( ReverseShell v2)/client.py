@@ -3,9 +3,9 @@ import os
 import subprocess
 
 s = socket.socket()
-host = '104.236.209.167'
+host = input("Enter the IP address: ")
 port = 9999
-
+print("Using the default port", port)
 s.connect((host, port))
 
 while True:
